@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <netdb.h>
 #include <fcntl.h>
-#define MAXCLIENT 10
+#define MAXCLIENT 15
 #define BUFFSIZE 500 
 int main(int argc, char** argv){
 	int myport,sockfd,their_addr_len;
